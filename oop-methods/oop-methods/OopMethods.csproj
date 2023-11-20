@@ -8,4 +8,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="ConsoleHelper.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="ConsoleHelper.cs" />
+  </ItemGroup>
+
 </Project>
